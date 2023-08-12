@@ -1,0 +1,21 @@
+'''The given code defines a Flask web application for item management. It includes routes to retrieve, create,
+update, and delete items. Each item has an ID, name, and additional data. The app uses JSON for data exchange
+and is designed to facilitate basic CRUD operations on items.'''
+
+
+'''
+==================================================
+to add and create new item by [POST]
+curl -X POST -H "Content-Type: application/json" -d "{\"name\": \"Item 7\", \"add\": 357}" http://127.0.0.1:5000/items
+==================================================
+to update ,modify & changes in name [PUT]
+curl -X PUT -H "Content-Type: application/json" -d "{\"name\": \"item 44\"}" http://127.0.0.1:5000/items/3
+==================================================
+to delete items by [DELETE]
+curl -X DELETE http://127.0.0.1:5000/items/7
+==================================================
+if u want to get all items in terminal by [GET]
+curl http://127.0.0.1:5000/items
+==================================================
+'''
+
